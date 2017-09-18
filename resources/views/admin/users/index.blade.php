@@ -25,7 +25,7 @@
         <td>{{$user->name}}</td>
         <td>{{$user->email}}</td>
         <th>{{$user->role->name}}</th>
-        <th>{{$user->is_active ==1 ? 'Is Active' : 'Not Active'}}</th>
+        <th>{{$user->is_activ ==1 ? 'Is Active' : 'Not Active'}}</th>
         <th>{{$user->created_at -> diffForHumans()}}</th>
         <th>{{$user->updated_at -> diffForHumans()}}</th>
       </tr>
